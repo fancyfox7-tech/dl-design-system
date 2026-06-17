@@ -1,0 +1,67 @@
+{
+  "color": {
+    "bg": {
+      "default": { "$value": "{primitive.white}", "$type": "color", "$description": "Page background" },
+      "hover": { "$value": "rgba(166,61,31,0.06)", "$type": "color", "$description": "Interactive card hover tint" }
+    },
+    "text": {
+      "primary": { "$value": "{primitive.black}", "$type": "color", "$description": "All text — never muted" },
+      "hover": { "$value": "{primitive.terracotta-140}", "$type": "color", "$description": "Nav links on hover" }
+    },
+    "surface": {
+      "default": { "$value": "{primitive.gray-100}", "$type": "color", "$description": "Card backgrounds" }
+    },
+    "border": {
+      "default": { "$value": "{primitive.border-default}", "$type": "color", "$description": "Dividers, card borders" },
+      "hover": { "$value": "{primitive.terracotta-100}", "$type": "color", "$description": "Card bottom border on hover" }
+    },
+    "accent": {
+      "default": { "$value": "{primitive.terracotta-100}", "$type": "color", "$description": "Primary accent — one per viewport" },
+      "hover": { "$value": "{primitive.terracotta-140}", "$type": "color", "$description": "Hover — darker" },
+      "pressed": { "$value": "{primitive.terracotta-60}", "$type": "color", "$description": "Pressed — lighter rebound" }
+    },
+    "feedback": {
+      "success": { "$value": "{primitive.green-100}", "$type": "color", "$description": "Confirmation" },
+      "success-bg": { "$value": "rgba(45,106,79,0.08)", "$type": "color", "$description": "Success background" },
+      "warning": { "$value": "{primitive.yellow-100}", "$type": "color", "$description": "Caution" },
+      "warning-bg": { "$value": "rgba(146,113,26,0.08)", "$type": "color", "$description": "Warning background" },
+      "error": { "$value": "{primitive.red-100}", "$type": "color", "$description": "Error" },
+      "error-bg": { "$value": "rgba(139,26,26,0.08)", "$type": "color", "$description": "Error background" },
+      "info": { "$value": "{primitive.blue-100}", "$type": "color", "$description": "Informational" },
+      "info-bg": { "$value": "rgba(45,74,122,0.08)", "$type": "color", "$description": "Info background" }
+    }
+  },
+  "spacing": {
+    "inline": {
+      "xs": { "$value": "{space.1}", "$type": "dimension", "$description": "Icon to label" },
+      "sm": { "$value": "{space.2}", "$type": "dimension", "$description": "Inline gap" },
+      "md": { "$value": "{space.4}", "$type": "dimension", "$description": "Standard inline padding" },
+      "lg": { "$value": "{space.6}", "$type": "dimension", "$description": "Wide inline — nav links" }
+    },
+    "stack": {
+      "xs": { "$value": "{space.2}", "$type": "dimension", "$description": "Tight vertical" },
+      "sm": { "$value": "{space.4}", "$type": "dimension", "$description": "Related elements" },
+      "md": { "$value": "{space.6}", "$type": "dimension", "$description": "Card internal" },
+      "lg": { "$value": "{space.8}", "$type": "dimension", "$description": "Component-to-component" },
+      "xl": { "$value": "{space.12}", "$type": "dimension", "$description": "Section break" }
+    },
+    "layout": {
+      "section": { "$value": "{space.20}", "$type": "dimension", "$description": "Between sections" },
+      "hero": { "$value": "{space.24}", "$type": "dimension", "$description": "Hero padding" },
+      "content": { "$value": "{space.16}", "$type": "dimension", "$description": "Layout whitespace" }
+    }
+  },
+  "radius": {
+    "button": { "$value": "{radius.full}", "$type": "dimension", "$description": "Pill buttons — locked" },
+    "card": { "$value": "{radius.lg}", "$type": "dimension", "$description": "Card corners" },
+    "tag": { "$value": "{radius.full}", "$type": "dimension", "$description": "Tag pills" },
+    "input": { "$value": "{radius.md}", "$type": "dimension", "$description": "Input fields" }
+  },
+  "elevation": {
+    "flat": { "$value": "none", "$type": "shadow", "$description": "DL_ default" },
+    "dropdown": { "$value": "{shadow.md}", "$type": "shadow", "$description": "Dropdowns" },
+    "modal": { "$value": "{shadow.lg}", "$type": "shadow", "$description": "Modals" },
+    "card-hover": { "$value": "{shadow.card-hover}", "$type": "shadow", "$description": "Card hover" },
+    "focus": { "$value": "{shadow.focus}", "$type": "shadow", "$description": "Focus ring" }
+  }
+}

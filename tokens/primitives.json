@@ -1,0 +1,92 @@
+{
+  "primitive": {
+    "white": {
+      "$value": "#FFFFFF",
+      "$type": "color",
+      "$description": "Pure white — base background"
+    },
+    "black": {
+      "$value": "#111111",
+      "$type": "color",
+      "$description": "Near-black — base text"
+    },
+    "terracotta-60": {
+      "$value": "#C4633D",
+      "$type": "color",
+      "$description": "Terracotta light — pressed state rebound"
+    },
+    "terracotta-100": {
+      "$value": "#A63D1F",
+      "$type": "color",
+      "$description": "Brand accent — the only accent color"
+    },
+    "terracotta-140": {
+      "$value": "#7A2D15",
+      "$type": "color",
+      "$description": "Terracotta dark — hover state"
+    },
+    "gray-100": {
+      "$value": "#F5F5F5",
+      "$type": "color",
+      "$description": "Light surface — card and section backgrounds"
+    },
+    "border-default": {
+      "$value": "#E5E5E5",
+      "$type": "color",
+      "$description": "Subtle border — visual equivalent of rgba(0,0,0,0.1)"
+    },
+    "green-100": {
+      "$value": "#2D6A4F",
+      "$type": "color",
+      "$description": "Success — muted green"
+    },
+    "yellow-100": {
+      "$value": "#92711A",
+      "$type": "color",
+      "$description": "Warning — warm amber"
+    },
+    "red-100": {
+      "$value": "#8B1A1A",
+      "$type": "color",
+      "$description": "Error — distinct from terracotta"
+    },
+    "blue-100": {
+      "$value": "#2D4A7A",
+      "$type": "color",
+      "$description": "Info — calm blue"
+    }
+  },
+  "space": {
+    "1": { "$value": "4px", "$type": "dimension", "$description": "Base unit" },
+    "2": { "$value": "8px", "$type": "dimension", "$description": "Inline gaps" },
+    "3": { "$value": "12px", "$type": "dimension", "$description": "Sub-element spacing" },
+    "4": { "$value": "16px", "$type": "dimension", "$description": "Standard component padding" },
+    "6": { "$value": "24px", "$type": "dimension", "$description": "Card padding" },
+    "8": { "$value": "32px", "$type": "dimension", "$description": "Component-to-component gap" },
+    "10": { "$value": "40px", "$type": "dimension", "$description": "Large component spacing" },
+    "12": { "$value": "48px", "$type": "dimension", "$description": "Section breaks" },
+    "16": { "$value": "64px", "$type": "dimension", "$description": "Layout whitespace" },
+    "20": { "$value": "80px", "$type": "dimension", "$description": "Page section padding" },
+    "24": { "$value": "96px", "$type": "dimension", "$description": "Hero-level spacing" }
+  },
+  "radius": {
+    "none": { "$value": "0px", "$type": "dimension", "$description": "No radius" },
+    "sm": { "$value": "4px", "$type": "dimension", "$description": "Tags, chips" },
+    "md": { "$value": "8px", "$type": "dimension", "$description": "Cards, modals" },
+    "lg": { "$value": "16px", "$type": "dimension", "$description": "Large surfaces" },
+    "full": { "$value": "999px", "$type": "dimension", "$description": "Pills — all buttons" }
+  },
+  "shadow": {
+    "sm": { "$value": "0 1px 3px rgba(0,0,0,0.10)", "$type": "shadow", "$description": "Subtle containment" },
+    "md": { "$value": "0 4px 6px rgba(0,0,0,0.10)", "$type": "shadow", "$description": "Dropdowns" },
+    "lg": { "$value": "0 10px 15px rgba(0,0,0,0.10)", "$type": "shadow", "$description": "Modals" },
+    "card-hover": { "$value": "0 8px 30px rgba(0,0,0,0.12)", "$type": "shadow", "$description": "Card hover" },
+    "focus": { "$value": "0 0 0 2px #111111", "$type": "shadow", "$description": "Focus ring" }
+  },
+  "duration": {
+    "fast": { "$value": "100ms", "$type": "duration", "$description": "Hover transitions" },
+    "normal": { "$value": "200ms", "$type": "duration", "$description": "State changes" },
+    "moderate": { "$value": "300ms", "$type": "duration", "$description": "Modals, panels" },
+    "slow": { "$value": "500ms", "$type": "duration", "$description": "Page transitions" }
+  }
+}

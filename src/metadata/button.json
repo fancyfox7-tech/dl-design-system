@@ -1,0 +1,77 @@
+{
+  "id": "button",
+  "name": "Button",
+  "description": "Pill-shaped CTA component. All buttons use border-radius 999px — never square, never 8px rounded. Primary for main actions, Outline for secondary, Ghost for tertiary/navigation.",
+  "category": "primitives",
+  "path": "src/components/primitives/Button.jsx",
+  "storybook": "stories/primitives/Button.stories.jsx",
+
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": ["primary", "outline", "ghost"],
+      "default": "primary",
+      "description": "Visual style. Primary: solid black fill, white text. Outline: border only. Ghost: text with trailing arrow."
+    },
+    "size": {
+      "type": "enum",
+      "values": ["default", "small"],
+      "default": "default",
+      "description": "Default: 16px text, 12px/32px padding. Small: 13px text, 8px/24px padding."
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false,
+      "description": "Disabled state — 40% opacity, no pointer events."
+    },
+    "children": {
+      "type": "string",
+      "required": true,
+      "description": "Button label text. Keep short — 1-3 words."
+    },
+    "href": {
+      "type": "string",
+      "description": "If provided, renders as anchor tag instead of button."
+    }
+  },
+
+  "states": {
+    "default": "Base appearance",
+    "hover": "Primary: terracotta-140 bg. Outline: terracotta border + text. Ghost: terracotta text.",
+    "focus": "2px focus ring via box-shadow",
+    "pressed": "Primary: terracotta-60 bg. Outline: terracotta-60 border + text.",
+    "disabled": "40% opacity, cursor-not-allowed"
+  },
+
+  "tokens_used": [
+    "color.text.primary",
+    "color.accent.default",
+    "color.accent.hover",
+    "color.accent.pressed",
+    "color.border.default",
+    "radius.button",
+    "spacing.inline.md",
+    "spacing.stack.xs",
+    "elevation.focus"
+  ],
+
+  "anti_patterns": [
+    "Never use square corners on buttons",
+    "Never place two primary buttons in the same viewport",
+    "Never use terracotta as button background in default state — only on hover",
+    "Ghost buttons always have trailing arrow →",
+    "Never use italic text on buttons"
+  ],
+
+  "usage_guidelines": {
+    "primary": "Main page CTA — 'View work', 'Get in touch'. One per viewport.",
+    "outline": "Secondary actions — 'Download CV', 'Learn more'. Can appear alongside primary.",
+    "ghost": "Tertiary/navigation — 'Download CV →'. Text-only with arrow."
+  },
+
+  "accessibility": {
+    "focus_ring": "2px solid #111111 via box-shadow",
+    "min_contrast": "WCAG AA — white on #111111 (primary), #111111 on white (outline/ghost)",
+    "reduced_motion": "Transitions disabled via prefers-reduced-motion"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "dl-design-system",
+  "version": "0.1.0",
+  "description": "DL_ Design System — Agentic component library for Desi Lazova's portfolio",
+  "type": "module",
+  "scripts": {
+    "tokens:build": "node style-dictionary.config.mjs",
+    "dev": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build": "npm run tokens:build && vite build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.0",
+    "@storybook/addon-essentials": "^8.4.0",
+    "@storybook/react": "^8.4.0",
+    "@storybook/react-vite": "^8.4.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "storybook": "^8.4.0",
+    "style-dictionary": "^4.1.0",
+    "tailwindcss": "^3.4.0",
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  }
+}
