@@ -10,7 +10,7 @@
  *
  * @component
  */
-
+import React from 'react';
 const baseStyles = [
   'inline-flex items-center justify-center',
   'font-sans rounded-button',
