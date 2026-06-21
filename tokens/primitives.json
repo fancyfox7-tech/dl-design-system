@@ -41,7 +41,7 @@
       "$description": "Success — muted green"
     },
     "yellow-100": {
-      "$value": "#92711A",
+      "$value": "#8B7A3F",
       "$type": "color",
       "$description": "Warning — warm amber"
     },
