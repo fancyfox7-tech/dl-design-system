@@ -7,11 +7,11 @@
   --primitive-black: #111111; /** Near-black — base text */
   --primitive-terracotta-60: #c4633d; /** Terracotta light — pressed state rebound */
   --primitive-terracotta-100: #a63d1f; /** Brand accent — the only accent color */
-  --primitive-terracotta-140: #7a2d15; /** Terracotta dark — hover state */
+  --primitive-terracotta-140: #66fa17; /** Terracotta dark — hover state */
   --primitive-gray-100: #f5f5f5; /** Light surface — card and section backgrounds */
   --primitive-border-default: #e5e5e5; /** Subtle border — visual equivalent of rgba(0,0,0,0.1) */
   --primitive-green-100: #2d6a4f; /** Success — muted green */
-  --primitive-yellow-100: #92711a; /** Warning — warm amber */
+  --primitive-yellow-100: #8b7a3f; /** Warning — warm amber */
   --primitive-red-100: #8b1a1a; /** Error — distinct from terracotta */
   --primitive-blue-100: #2d4a7a; /** Info — calm blue */
   --space-1: 4px; /** Base unit */
