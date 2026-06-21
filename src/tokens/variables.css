@@ -1,0 +1,81 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --primitive-white: #ffffff; /** Pure white — base background */
+  --primitive-black: #111111; /** Near-black — base text */
+  --primitive-terracotta-60: #c4633d; /** Terracotta light — pressed state rebound */
+  --primitive-terracotta-100: #a63d1f; /** Brand accent — the only accent color */
+  --primitive-terracotta-140: #7a2d15; /** Terracotta dark — hover state */
+  --primitive-gray-100: #f5f5f5; /** Light surface — card and section backgrounds */
+  --primitive-border-default: #e5e5e5; /** Subtle border — visual equivalent of rgba(0,0,0,0.1) */
+  --primitive-green-100: #2d6a4f; /** Success — muted green */
+  --primitive-yellow-100: #92711a; /** Warning — warm amber */
+  --primitive-red-100: #8b1a1a; /** Error — distinct from terracotta */
+  --primitive-blue-100: #2d4a7a; /** Info — calm blue */
+  --space-1: 4px; /** Base unit */
+  --space-2: 8px; /** Inline gaps */
+  --space-3: 12px; /** Sub-element spacing */
+  --space-4: 16px; /** Standard component padding */
+  --space-6: 24px; /** Card padding */
+  --space-8: 32px; /** Component-to-component gap */
+  --space-10: 40px; /** Large component spacing */
+  --space-12: 48px; /** Section breaks */
+  --space-16: 64px; /** Layout whitespace */
+  --space-20: 80px; /** Page section padding */
+  --space-24: 96px; /** Hero-level spacing */
+  --radius-none: 0px; /** No radius */
+  --radius-sm: 4px; /** Tags, chips */
+  --radius-md: 8px; /** Cards, modals */
+  --radius-lg: 16px; /** Large surfaces */
+  --radius-full: 999px; /** Pills — all buttons */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.10); /** Subtle containment */
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.10); /** Dropdowns */
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.10); /** Modals */
+  --shadow-card-hover: 0 8px 30px rgba(0,0,0,0.12); /** Card hover */
+  --shadow-focus: 0 0 0 2px #111111; /** Focus ring */
+  --duration-fast: 100ms; /** Hover transitions */
+  --duration-normal: 200ms; /** State changes */
+  --duration-moderate: 300ms; /** Modals, panels */
+  --duration-slow: 500ms; /** Page transitions */
+  --color-bg-hover: rgba(166, 61, 31, 0.06); /** Interactive card hover tint */
+  --color-feedback-success-bg: rgba(45, 106, 79, 0.08); /** Success background */
+  --color-feedback-warning-bg: rgba(146, 113, 26, 0.08); /** Warning background */
+  --color-feedback-error-bg: rgba(139, 26, 26, 0.08); /** Error background */
+  --color-feedback-info-bg: rgba(45, 74, 122, 0.08); /** Info background */
+  --elevation-flat: none; /** DL_ default */
+  --radius-button: var(--radius-full); /** Pill buttons — locked */
+  --radius-card: var(--radius-lg); /** Card corners */
+  --radius-tag: var(--radius-full); /** Tag pills */
+  --radius-input: var(--radius-md); /** Input fields */
+  --color-bg-default: var(--primitive-white); /** Page background */
+  --color-text-primary: var(--primitive-black); /** All text — never muted */
+  --color-text-hover: var(--primitive-terracotta-140); /** Nav links on hover */
+  --color-surface-default: var(--primitive-gray-100); /** Card backgrounds */
+  --color-border-default: var(--primitive-border-default); /** Dividers, card borders */
+  --color-border-hover: var(--primitive-terracotta-100); /** Card bottom border on hover */
+  --color-accent-default: var(--primitive-terracotta-100); /** Primary accent — one per viewport */
+  --color-accent-hover: var(--primitive-terracotta-140); /** Hover — darker */
+  --color-accent-pressed: var(--primitive-terracotta-60); /** Pressed — lighter rebound */
+  --color-feedback-success: var(--primitive-green-100); /** Confirmation */
+  --color-feedback-warning: var(--primitive-yellow-100); /** Caution */
+  --color-feedback-error: var(--primitive-red-100); /** Error */
+  --color-feedback-info: var(--primitive-blue-100); /** Informational */
+  --spacing-inline-xs: var(--space-1); /** Icon to label */
+  --spacing-inline-sm: var(--space-2); /** Inline gap */
+  --spacing-inline-md: var(--space-4); /** Standard inline padding */
+  --spacing-inline-lg: var(--space-6); /** Wide inline — nav links */
+  --spacing-stack-xs: var(--space-2); /** Tight vertical */
+  --spacing-stack-sm: var(--space-4); /** Related elements */
+  --spacing-stack-md: var(--space-6); /** Card internal */
+  --spacing-stack-lg: var(--space-8); /** Component-to-component */
+  --spacing-stack-xl: var(--space-12); /** Section break */
+  --spacing-layout-section: var(--space-20); /** Between sections */
+  --spacing-layout-hero: var(--space-24); /** Hero padding */
+  --spacing-layout-content: var(--space-16); /** Layout whitespace */
+  --elevation-dropdown: var(--shadow-md); /** Dropdowns */
+  --elevation-modal: var(--shadow-lg); /** Modals */
+  --elevation-card-hover: var(--shadow-card-hover); /** Card hover */
+  --elevation-focus: var(--shadow-focus); /** Focus ring */
+}
